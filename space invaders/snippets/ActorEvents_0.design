@@ -43,12 +43,12 @@
             </group>
         </draw>
     </group>
-    <group eventID="1" id="7">
+    <group eventID="1" id="1">
         <not comment="false" x="154" y="438">
             <int id="0" val=""/>
         </not>
     </group>
-    <group eventID="1" id="8">
+    <group eventID="1" id="2">
         <keystate comment="false" x="54" y="644">
             <int id="0" val="1"/>
             <control id="1"/>
