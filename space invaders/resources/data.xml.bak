@@ -12,8 +12,8 @@
                 <prop id="40" list="0" val="0.0"/>
                 <prop id="41" list="0" val=""/>
                 <prop id="42" list="0" val=""/>
-                <prop id="11" list="0" val="30.0"/>
                 <prop id="43" list="0" val=""/>
+                <prop id="11" list="0" val="30.0"/>
                 <prop id="44" list="0" val=""/>
                 <prop id="45" list="0" val="true"/>
                 <prop id="46" list="0" val="true"/>
@@ -31,6 +31,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="4" name="bullets" shared="false" width="96">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="48" originy="16" sync="false" version="2" width="96">
             <poly data="4,0,0,96,0,96,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="3" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemy ship" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="10" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="16" id="10" name="enemy ship" shared="false" width="16">
+        <anim across="1" down="1" durations="100" height="1" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="1">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="ship" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
